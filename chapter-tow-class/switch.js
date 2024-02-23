@@ -1,26 +1,46 @@
-let date = new Date();
+// let date = new Date();
 
-let today = date.getDay();
+// let today = date.getDay();
 
-switch (9) {
+// switch (9) {
+//   case 0:
+//     console.log("today is sunday");
+//     break;
+//   case 1:
+//     console.log("today is monday");
+//     break;
+
+//   case 2:
+//     console.log("today is tuesday");
+//     break;
+//   case 3:
+//     console.log("today is wesnesday");
+//     break;
+
+//   case 4:
+//     console.log("today is thusday");
+//     break;
+
+//   default:
+//     console.log("not a numbar");
+// }
+
+let day = 0;
+
+switch (0) {
   case 0:
-    console.log("today is sunday");
+    console.log(jurro);
     break;
   case 1:
-    console.log("today is monday");
+    console.log(one);
     break;
-
   case 2:
-    console.log("today is tuesday");
+    console.log(two);
     break;
   case 3:
-    console.log("today is wesnesday");
+    console.log(three);
     break;
-
   case 4:
-    console.log("today is thusday");
+    console.log(four);
     break;
-
-  default:
-    console.log("not a numbar");
 }

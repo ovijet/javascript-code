@@ -5,16 +5,16 @@
 //     i++
 // }
 
-let isRumnning=true
+// let isRumnning=true
 
-while (isRumnning) {
-    let rand=Math.floor(Math.random()*10+1)
-    if (rand===9) {
-        console.log('winner');
-    }else{
-        console.log('try again'+rand);
-    }
-}
+// while (isRumnning) {
+//     let rand=Math.floor(Math.random()*10+1)
+//     if (rand===9) {
+//         console.log('winner');
+//     }else{
+//         console.log('try again'+rand);
+//     }
+// }
 
 
 
@@ -24,3 +24,10 @@ while (isRumnning) {
 //     console.log('ovi');
 //     i++
 // }
+
+let a=0
+while(a<5){
+console.log(a);
+
+a++
+}
