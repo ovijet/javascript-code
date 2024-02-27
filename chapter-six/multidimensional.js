@@ -27,8 +27,15 @@ let arr = [
 // console.log(arr[1][0]);
 // console.log(arr[2][0]);
 
-for (let i = 0; i < arr.length; i++) {
-  for (let j = 0; j < arr[i].length; j++) {
-    console.log(arr[i][j]);
-  }
-}
+// for (let i = 0; i < arr.length; i++) {
+//   for (let j = 0; j < arr[i].length; j++) {
+//     console.log(arr[i][j]);
+//   }
+// }
+
+let array = [1,2,3,4,5]
+
+console.log(array);
+
+// console.log(array.push());
+console.log(array.shift());
