@@ -44,3 +44,10 @@ point.a=undefined
 
 delete point.a
 console.log(point);
+
+let person1 = {
+    firstName: 'ovijet',
+    lastName: 'halder'
+}
+console.log(typeof person1);
+console.log(person1.firstName);
