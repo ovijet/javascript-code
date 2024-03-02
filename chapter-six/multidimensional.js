@@ -40,9 +40,18 @@ console.log(array);
 // console.log(array.push());
 // console.log(array.shift());
 
-
 for (let i = 0; i <= array.length; i++) {
-  if (array[i]%2==1) {
-    console.log(i);
+  if (array[i] % 2 == 1) {
+    // console.log(i);
+  }
+}
+
+// console.log(arr[0][1]);
+// console.log(arr[1]);
+// console.log(arr[2]);
+
+for (let i = 0; i < arr.length; i++) {
+  for (let j = 0; j < arr.length; j++) {
+    console.log( 'element '+ i + ':'+ arr[i][j]);
   }
 }
