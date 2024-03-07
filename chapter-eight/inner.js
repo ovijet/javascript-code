@@ -6,3 +6,10 @@ function someone(greet,name){
 }
 
 someone('good morning', 'ovijet')
+
+
+let firstN = function (a,b){
+    return a*b
+}
+
+console.log(firstN(20,30))
