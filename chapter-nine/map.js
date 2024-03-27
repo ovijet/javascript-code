@@ -9,14 +9,21 @@ let arr = [1, 2, 3, 4];
 // console.log(arr);
 // console.log(sqrArr);
 
-function myMap(arr) {
-    let newArr=[]
-  for (let i = 0; i < arr.length; i++) {
-    let temp= arr[i] * arr[i]
-    newArr.push(temp)
-  }
+// function myMap(arr) {
+//     let newArr=[]
+//   for (let i = 0; i < arr.length; i++) {
+//     let temp= arr[i] * arr[i]
+//     newArr.push(temp)
+//   }
 
-  return newArr
+//   return newArr
+// }
+
+// console.log(myMap(arr));
+
+sum =0
+for (let i = 0; i < arr.length; i++) {
+  sum+=arr[i]
 }
 
-console.log(myMap(arr));
+console.log(sum);
