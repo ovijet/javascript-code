@@ -1,32 +1,32 @@
-// function test(a, b, c, d) {
-//   console.log(arguments);
-// }
-// test(10, 20, 30, 60);
+function test(a, b, c, d) {
+  console.log(arguments);
+}
+test(10, 20, 30, 60);
 
-// for (let i = 0; i <= 10; i++) {
-//     console.log(i);
-// }
+for (let i = 0; i <= 10; i++) {
+  console.log(i);
+}
 
-// function name() {
-//   let a = 10;
-//   let b = 20;
-//   let result = a + b;
-//   console.log(result);
-// }
+function name() {
+  let a = 10;
+  let b = 20;
+  let result = a + b;
+  console.log(result);
+}
 
-// name()
+name();
 
-// function sum(a, b) {
-//   console.log(a + b);
-// }
-// sum(10, 10);
-// sum(40, 10);
-// sum(30, 10);
-// sum(20, 10);
+function sum(a, b) {
+  console.log(a + b);
+}
+sum(10, 10);
+sum(40, 10);
+sum(30, 10);
+sum(20, 10);
 
-function add(a,b,c) {
+function add(a, b, c) {
   for (let i = 0; i < arguments.length; i++) {
     console.log(arguments[i]);
   }
 }
-add(10,20,30)
+add(10, 20, 30);

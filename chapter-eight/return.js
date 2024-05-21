@@ -3,11 +3,21 @@
 // }
 // console.log(fName(20,30));
 
-function add(a, b, c) {
-  for (let i = 0; i < arguments.length; i++) {
-    return arguments[i]
-  }
-}
-let result = add(10);
+// function add(a, b, c) {
+//   for (let i = 0; i < arguments.length; i++) {
+//     return arguments[i];
+//   }
+// }
+// let result = add(10);
 
-console.log(result);
+// console.log(result);
+
+function person(name, email) {
+  return {
+    name,
+    email,
+  };
+}
+let pl = person("ovi halder", "ovi@gmail.com");
+
+console.log(pl);
