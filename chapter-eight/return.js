@@ -21,3 +21,11 @@ function person(name, email) {
 let pl = person("ovi halder", "ovi@gmail.com");
 
 console.log(pl);
+
+function fun(a, b, c) {
+  return a * b * c;
+}
+
+let same = fun(4, 5, 6);
+
+console.log(same);
