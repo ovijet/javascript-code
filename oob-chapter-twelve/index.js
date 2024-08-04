@@ -60,24 +60,24 @@
 
 // constractor pattan ---------------------//
 
-// let rectangle = function (width, height) {
-//   this.Width = width;
-//   this.Height = height;
-//   this.draw = function () {
-//     console.log("i am arectangle");
-//     this.printProparty();
-//     console.log(this);
-//   };
+let rectangle = function (width, height) {
+  this.Width = width;
+  this.Height = height;
+  this.draw = function () {
+    console.log("i am arectangle");
+    this.printProparty();
+    console.log(this);
+  };
 
-//   this.printProparty = function () {
-//     console.log("the width is " + this.Width);
-//     console.log("the height is " + this.Height);
-//   };
-// };
+  this.printProparty = function () {
+    console.log("the width is " + this.Width);
+    console.log("the height is " + this.Height);
+  };
+};
 
-// let rect3 = new rectangle(2,3);
+let rect3 = new rectangle(2,3);
 
-// rect3.draw();
+rect3.draw();
 
 function myFun(c, d) {
   console.log(this);
